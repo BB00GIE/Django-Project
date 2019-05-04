@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First django page</title>
+    <title>Home</title>
 </head>
 <body>
-<P1>Hello everyone</P1>
+
+{% extends 'Base.html' %}
+{% block content %}
+<br/><br/>
+<h3>Hello everyone</h3>
+
+{% endblock %}
 </body>
 </html>
